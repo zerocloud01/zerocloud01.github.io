@@ -1225,7 +1225,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #7ef021;
+    background: #b4c181;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2789,4 +2789,30 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
+}
+.main-inner {
+  opacity: 0.9;
+}
+.header {
+  opacity: 0.9;
+  z-index: 10;
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
+}
+body {
+  background: url("/images/bocchi2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
 }
