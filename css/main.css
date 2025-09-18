@@ -1225,7 +1225,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #e3daf1;
+    background: #c4b6ff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2798,21 +2798,20 @@ body {
   background-position: 50% 50%;
 }
 .main-inner {
-  opacity: 0.9;
-}
-.header {
-  opacity: 0.9;
-  z-index: 10;
-}
-.content-wrap {
-  opacity: 0.9;
-}
-.sidebar {
-  opacity: 0.9;
+  background: rgba(255,255,255,0.9);
 }
 .header-inner {
   background: rgba(255,255,255,0.9);
 }
+.sidebar {
+  background: rgba(255,255,255,0.9);
+}
 .popup {
-  opacity: 0.9;
+  background: rgba(255,255,255,0.9);
+  z-index: 9999;
+  position: relative;
+}
+.search-popup {
+  background: rgba(255,255,255,0.99);
+  z-index: 10000;
 }
